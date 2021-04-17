@@ -46,7 +46,7 @@ section{
 }
 
 .animated-text h3{
-  color: #4e9eff;
+  color: #00dbde;
   font-size: 3em;
   font-weight: 700;
   line-height: 70px;
@@ -77,7 +77,7 @@ section{
 
 .btn{
   color: #fff;
-  background: #3a6cf4;
+  background-image: linear-gradient(to right, #fc00ff, #00dbde);
   font-size: 1em;
   font-weight: 600;
   display: inline-block;
@@ -91,7 +91,7 @@ section{
 }
 
 .btn:hover{
-  background: #235bf6;
+  background-image: linear-gradient(to right, #fc00ff, #00dbde);
 }
 
 .media-icons{
@@ -102,6 +102,22 @@ section{
   color: #fff;
   font-size: 25px;
   margin-right: 30px;
+}
+.media-icons a:nth-child(1):hover{
+  color: #3b5999;
+  transition: 0.5s;
+}
+.media-icons a:nth-child(2):hover{
+  color: #e4405f;
+  transition: 0.5s;
+}
+.media-icons a:nth-child(3):hover{
+  color: #25D366;
+  transition: 0.5s;
+}
+.media-icons a:nth-child(4):hover{
+  color: #cd201f;
+  transition: 0.5s;
 }
 
 header{
@@ -119,7 +135,8 @@ header{
 }
 
 header.sticky{
-  background: #3a6cf4;
+  /* background: #3a6cf4; */
+  background-image: linear-gradient(to right, #fc00ff, #00dbde);
   padding: 10px 200px;
 }
 
@@ -144,7 +161,7 @@ header .navigation a{
 }
 
 header .navigation a:hover{
-  color: #3a6cf4;
+  color: #00dbde;
 }
 
 header.sticky .navigation a:hover{
@@ -165,7 +182,7 @@ body{
 
 .section-title{
   position: relative;
-  color: #3a6cf4;
+  color: #00dbde;
   font-size: 2.2em;
   font-weight: 800;
   margin-bottom: 60px;
@@ -178,7 +195,8 @@ body{
   left: 50%;
   width: 140px;
   height: 4px;
-  background: #3a6cf4;
+  /* background: #3a6cf4; */
+   background-image: linear-gradient(to right, #fc00ff, #00dbde);
   transform: translateX(-50%);
 }
 
@@ -190,7 +208,8 @@ body{
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #3a6cf4;
+  /* background: #3a6cf4; */
+   background-image: linear-gradient(to right, #fc00ff, #00dbde);
   transform: translateX(-50%);
 }
 
@@ -310,18 +329,26 @@ body{
 }
 
 .skills .content .col-right .bar .javascript:before{
-  width: 80%;
+  width: 60%;
   background: #e3a324;
 }
 
-.skills .content .col-right .bar .jquery:before{
+.skills .content .col-right .bar .vuejs:before{
   width: 80%;
   background: #30dd6d;
 }
 
 .skills .content .col-right .bar .php:before{
-  width: 75%;
+  width: 65%;
   background: #6d7eb8;
+}
+.skills .content .col-right .bar .flutter:before{
+  width: 75%;
+  background: #0d41ec;
+}
+.skills .content .col-right .bar .nodejs:before{
+  width: 55%;
+  background: #06b87d;
 }
 
 .services .content{
@@ -350,7 +377,7 @@ body{
 }
 
 .services .content .card .service-icon{
-  color: #3a6cf4;
+  color: #00dbde;
   font-size: 8em;
   text-align: center;
   transition: transform 0.5s ease;
@@ -365,7 +392,7 @@ body{
 }
 
 .services .content .card .info h3{
-  color: #3a6cf4;
+  color: #00dbde;
   font-size: 1.2em;
   font-weight: 700;
   margin: 10px;
@@ -440,7 +467,7 @@ body{
 }
 
 .contact .content .row .card .contact-icon{
-  color: #3a6cf4;
+  color: #00dbde;
   font-size: 4em;
   text-align: center;
   transition: transform 0.5s ease;
@@ -504,7 +531,8 @@ body{
 
 .contact-form .input-box .send-btn{
   color: #fff;
-  background: #3a6cf4;
+  /* background: #3a6cf4; */
+   background-image: linear-gradient(to right, #fc00ff, #00dbde);
   display: inline-block;
   font-size: 1.1em;
   font-weight: 500;
@@ -517,7 +545,7 @@ body{
 }
 
 .contact-form .input-box .send-btn:hover{
-  background: #235bf6;
+  background-image: linear-gradient(to right, #fc00ff, #00dbde);
 }
 
 .footer{
@@ -538,7 +566,7 @@ body{
 }
 
 .footer p a{
-  color: #3a6cf4;
+  color: #00dbde;
   font-weight: 600;
   text-decoration: none;
 }
@@ -581,7 +609,7 @@ body{
   }
 
   header .navigation a:hover{
-    background: #3a6cf4;
+    background-image: linear-gradient(to right, #fc00ff, #00dbde);
     color: #fff;
     transition: 0.3s ease;
   }
@@ -658,7 +686,7 @@ body{
 .scrollToTop-btn{
   z-index: 999;
   position: fixed;
-  background: #3a6cf4;
+ background-image: linear-gradient(to right, #fc00ff, #00dbde);
   color: #fff;
   width: 45px;
   height: 45px;
